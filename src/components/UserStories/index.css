@@ -1,0 +1,125 @@
+.slider-component {
+  width: 80%;
+  margin-top: 20px;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .slider-component {
+    width: 65%;
+  }
+}
+.slick-list-item {
+  list-style-type: none;
+}
+.slick-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.story-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  border: 3px solid crimson;
+  padding: 1%;
+}
+
+@media screen and (min-width: 768px) {
+  .story-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+}
+.story-user-name {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #262626;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view {
+  width: 1040px;
+  height: 466px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+}
+@media screen and (max-width: 768px) {
+  .failure-view {
+    width: 90%;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .marquee {
+    width: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .marquee span {
+    display: inline-block;
+    width: max-content;
+    will-change: transform;
+    animation: marquee 5s linear infinite;
+    animation-play-state: paused;
+  }
+  .marquee span:hover {
+    animation-play-state: running;
+  }
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-70%, 0);
+    }
+  }
+}
+
+.failure-view-image {
+  width: 44px;
+  height: 38px;
+  top: 4px;
+  left: 2px;
+  color: #4094ef;
+}
+.failure-view-para {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #262626;
+}
+.try-again-button {
+  width: 102px;
+  height: 32px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #4094ef;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

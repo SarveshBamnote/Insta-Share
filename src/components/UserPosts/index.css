@@ -1,0 +1,59 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-post-component {
+  width: 100%;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .user-post-component {
+    width: 70%;
+    padding: 0;
+  }
+}
+.failure-view {
+  width: 1040px;
+  height: 466px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+}
+@media screen and (max-width: 768px) {
+  .failure-view {
+    width: 90%;
+    height: 500px;
+  }
+}
+
+.failure-view-image {
+  width: 44px;
+  height: 38px;
+  top: 4px;
+  left: 2px;
+  color: #4094ef;
+}
+.failure-view-para {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #262626;
+}
+.try-again-button {
+  width: 102px;
+  height: 32px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #4094ef;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,141 @@
+.post-list-item {
+  list-style-type: none;
+  padding: 0;
+  width: 100vw;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .post-list-item {
+    width: 100%;
+    height: 866px;
+  }
+}
+.profile-and-name {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+}
+.post-profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.post-user-name-link {
+  text-decoration: none;
+}
+.post-user-name {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.uploaded-post {
+  width: 100%;
+  height: 350px;
+}
+@media screen and (min-width: 768px) {
+  .uploaded-post {
+    height: 610px;
+  }
+}
+.post-image-footer {
+  padding-left: 20px;
+}
+.post-reactions {
+  display: flex;
+  align-items: center;
+}
+.unlike-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+}
+.like-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+}
+.reaction-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.reaction-icon-like {
+  width: 22px;
+  height: 23px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.reaction-icon-unlike {
+  width: 23px;
+  height: 22px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.post-likes {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin: 8px 0px;
+}
+.post-caption {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin: 8px 0px;
+}
+.post-comments {
+  margin: 0px;
+  padding: 0px;
+}
+.each-comment-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.each-comment-userName {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  margin: 8px 0px;
+}
+.each-comment {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0em;
+  margin: 6px 0px;
+}
+.post-created-at {
+  color: #989898;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+  padding-top: 8px;
+}
